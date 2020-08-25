@@ -2,7 +2,7 @@ name: Staging deployment
 
 on: 
   pull_requesut:
-    typeps: [labeled]
+    types: [labeled]
 
 jobs:
   build:
