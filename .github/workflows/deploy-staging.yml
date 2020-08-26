@@ -60,7 +60,7 @@ jobs:
       - name: "Login via Azure CLI"
         uses: azure/login@v1
         with:
-          key: creds ${{ secrets.AXURE_CREDENTIALS }}
+          key: creds ${{ secrets.AZURE_CREDENTIALS }}
           
       - uses: azure/docker-login@v1
         with:
